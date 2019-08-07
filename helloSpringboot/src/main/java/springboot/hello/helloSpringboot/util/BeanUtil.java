@@ -14,7 +14,7 @@ public class BeanUtil {
      * @param <T>
      * @return
      */
-    public static <T> T getDAO(Class<T> clazz, HttpServletRequest request){
+    public static <T> T getBean(Class<T> clazz, HttpServletRequest request){
         BeanFactory factory= WebApplicationContextUtils.getRequiredWebApplicationContext(request.getServletContext());
 
         return factory.getBean(clazz);
