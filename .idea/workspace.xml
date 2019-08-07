@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03b713a1-48ba-40d7-aa38-8981b03e668d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/helloSpringboot/src/main/java/springboot/hello/helloSpringboot/dao/ServiceLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloSpringboot/src/main/java/springboot/hello/helloSpringboot/entity/ServiceLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloSpringboot/src/main/java/springboot/hello/helloSpringboot/util/BeanUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloSpringboot/src/main/java/springboot/hello/helloSpringboot/util/StringUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloSpringboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringboot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloSpringboot/src/main/java/springboot/hello/helloSpringboot/config/interceptor/InterceptorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringboot/src/main/java/springboot/hello/helloSpringboot/config/interceptor/InterceptorConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloSpringboot/src/main/java/springboot/hello/helloSpringboot/config/interceptor/InterceptorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringboot/src/main/java/springboot/hello/helloSpringboot/config/interceptor/InterceptorLog.java" afterDir="false" />
-    </list>
+    <list default="true" id="03b713a1-48ba-40d7-aa38-8981b03e668d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/helloSpringboot/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,11 +39,9 @@
         <entry file="file://$PROJECT_DIR$/helloSpringboot/src/main/java/springboot/hello/helloSpringboot/config/interceptor/InterceptorLog.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="59">
-              <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+              <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3019#3245#0" expanded="true" />
-                <element signature="e#3244#3245#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -187,6 +176,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -300,7 +290,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,17 +347,17 @@
       <workItem from="1553696599654" duration="404000" />
       <workItem from="1563965533875" duration="24580000" />
       <workItem from="1564362863633" duration="3176000" />
+      <workItem from="1564967640476" duration="268000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28160000" />
+    <option name="totallyTimeSpent" value="28428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -386,7 +375,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
       <window_info anchor="bottom" id="Spring" order="13" />
@@ -806,11 +795,9 @@
     <entry file="file://$PROJECT_DIR$/helloSpringboot/src/main/java/springboot/hello/helloSpringboot/config/interceptor/InterceptorLog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
-          <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3019#3245#0" expanded="true" />
-            <element signature="e#3244#3245#0" expanded="true" />
           </folding>
         </state>
       </provider>
