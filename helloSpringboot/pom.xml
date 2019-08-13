@@ -77,6 +77,28 @@
             <artifactId>java-jwt</artifactId>
             <version>3.4.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.elasticsearch</groupId>
+            <artifactId>elasticsearch</artifactId>
+            <version>6.1.1</version>
+        </dependency>
+
+        <dependency>
+        <groupId>org.elasticsearch.client</groupId>
+        <artifactId>transport</artifactId>
+        <version>6.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.reflections</groupId>
+            <artifactId>reflections</artifactId>
+            <version>0.9.11</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.opensymphony.quartz</groupId>
+            <artifactId>quartz-all</artifactId>
+            <version>1.6.1</version>
+        </dependency>
     </dependencies>
 
     <build>
