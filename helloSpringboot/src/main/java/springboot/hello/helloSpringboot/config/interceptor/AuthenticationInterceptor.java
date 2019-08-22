@@ -11,7 +11,6 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 import springboot.hello.helloSpringboot.config.annotation.PassToken;
 import springboot.hello.helloSpringboot.config.annotation.UserLoginToken;
-import springboot.hello.helloSpringboot.entity.LoginUser;
 import springboot.hello.helloSpringboot.service.LoginUserService;
 
 import javax.servlet.http.HttpServletRequest;

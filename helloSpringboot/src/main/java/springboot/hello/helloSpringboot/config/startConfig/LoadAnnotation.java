@@ -1,15 +1,11 @@
 package springboot.hello.helloSpringboot.config.startConfig;
-
 import org.quartz.CronExpression;
 import org.reflections.Reflections;
-import org.springframework.context.ApplicationContext;
 import springboot.hello.helloSpringboot.config.annotation.Time;
 import springboot.hello.helloSpringboot.config.annotation.Times;
-import springboot.hello.helloSpringboot.config.annotation.Val;
 import springboot.hello.helloSpringboot.util.GetClasses;
 import springboot.hello.helloSpringboot.util.YmlMapUtil;
 
-import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.text.ParseException;
@@ -98,6 +94,18 @@ public class LoadAnnotation {
     }
 
     private void loadVal(Reflections reflections){
+//        String[] beans = SpringContextHolder.getApplicationContext()
+//                .getBeanDefinitionNames();
+//        for (String beanName : beans) {
+//            Class<?> beanType = SpringContextHolder.getApplicationContext()
+//                    .getType(beanName);
+//            System.out.println("BeanName:" + beanName);
+//            System.out.println("Bean的类型：" + beanType);
+//            System.out.println("Bean所在的包：" + beanType.getPackage());
+//            System.out.println("Bean：" + SpringContextHolder.getApplicationContext().getBean(
+//                    beanName));
+//        }
+
 //        Set<Field> fields = reflections.getFieldsAnnotatedWith(Val.class);
 //        for(Field field : fields){
 //            Val val = field.getAnnotation(Val.class);

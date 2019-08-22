@@ -8,12 +8,12 @@ import java.util.Date;
 
 @Times
 public class TimeDemo {
-    @Val("a")
-    public int a;
-
-    public TimeDemo(int a) {
-        this.a = a;
-    }
+//    @Val("a")
+//    public int a;
+//
+//    public TimeDemo(int a) {
+//        this.a = a;
+//    }
 
     @Time("0 0/1 * * * ?")
     public void timeDemo(){
@@ -23,6 +23,6 @@ public class TimeDemo {
 
     @Time("*/3 * * * * ?")
     public void timeDemo1(){
-        System.out.println("============================="+a);
+        System.out.println("=============================");
     }
 }
